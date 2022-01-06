@@ -17,14 +17,7 @@ pacman -S --noconfirm pacman-contrib terminus-font
 setfont ter-v22b
 sed -i 's/^#ParallelDownloads/ParallelDownloads/' /etc/pacman.conf
 pacman -S --noconfirm reflector rsync grub
-cp /etc/pacman.d/mirrorlist /etc/pacman.d/mirrorlist.backup
-echo -e "-------------------------------------------------------------------------"
-echo -e "   █████╗ ██████╗  ██████╗██╗  ██╗████████╗██╗████████╗██╗   ██╗███████╗"
-echo -e "  ██╔══██╗██╔══██╗██╔════╝██║  ██║╚══██╔══╝██║╚══██╔══╝██║   ██║██╔════╝"
-echo -e "  ███████║██████╔╝██║     ███████║   ██║   ██║   ██║   ██║   ██║███████╗"
-echo -e "  ██╔══██║██╔══██╗██║     ██╔══██║   ██║   ██║   ██║   ██║   ██║╚════██║"
-echo -e "  ██║  ██║██║  ██║╚██████╗██║  ██║   ██║   ██║   ██║   ╚██████╔╝███████║"
-echo -e "  ╚═╝  ╚═╝╚═╝  ╚═╝ ╚═════╝╚═╝  ╚═╝   ╚═╝   ╚═╝   ╚═╝    ╚═════╝ ╚══════╝"
+cp /etc/pacman.d/mirrorlist /etc/pacman.d/mirrorlist.backup"
 echo -e "-------------------------------------------------------------------------"
 echo -e "-Setting up $iso mirrors for faster downloads"
 echo -e "-------------------------------------------------------------------------"
