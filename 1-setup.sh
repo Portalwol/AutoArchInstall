@@ -54,6 +54,14 @@ pacman -Sy --noconfirm
 echo -e "\nInstalling Base System\n"
 
 PKGS=(
+'awesome' # Awesome wm gui enviroment
+'feh' #Light Weight Image Viewer
+'flameshot'# Powerful Screenshot tool
+'arc-icon-theme' #icons for awesome wm
+'mousepad' #Simple LightWeight text editor gui
+'lm_sensors' # Sensors for temps in awesome widgets
+'pamixer' # Audio Tunning
+'acpi'# Battery
 'mesa' # Essential Xorg First - An open-source implementation of the OpenGL specification
 'xorg' # Display Server Meta Package
 'xorg-server' # Display Server
