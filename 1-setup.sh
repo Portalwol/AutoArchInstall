@@ -62,11 +62,9 @@ PKGS=(
 'xorg-xkill' # Tools to Kill X Processes
 'xorg-xinit' # Program to manually start X Display Server
 'xterm' # Standard Terminal Emulator
-'plasma-desktop' # KDE Load second
 'alsa-plugins' # Audio Plugins
 'alsa-utils' # Audio Utilities
 'ark' # File Compression
-'audiocd-kio' # KDE Audio CD Reading
 'autoconf' # A GNU tool for automatically configuring source code
 'automake' # A GNU tool for automatically creating Makefiles
 'base' # Minimal package set to define a basic Arch Linux installation
@@ -74,22 +72,16 @@ PKGS=(
 'bind' # DNS Server
 'binutils' # A set of programs to assemble and manipulate binary and object files
 'bison' # GNU Parser Generator - Compiler
-'bluedevil' # Bluetooth tech for KDE
 'bluez' # Bluetooth Daemons
 'bluez-libs' # Deprecated libraries for the bluetooth protocol stack
 'bluez-utils' # Development and debugging utilities for the bluetooth protocol stack
-'breeze' # Theme for KDE Plasma
-'breeze-gtk' # Widget Theme 
 'bridge-utils' # Utilities for configuring the Linux ethernet bridge
 'btrfs-progs' # Btrfs filesystem utilities
 'celluloid' # Video Player - MPV Frontend
 'cmatrix' # Scrolling Lines from Matrix Movie
 'code' # Visual Studio code
-'cronie' # Daemon that runs specified programs at scheduled times and related tools
 'cups' # Open Source Printing System
 'dialog' # A tool to display dialog boxes from shell scripts
-'discover' # KDE and Plasma resources management GUI
-'dolphin' # Default File Manager for KDE
 'dosfstools' # DOS filesystem utilities
 'dtc' # Device Tree Compiler
 'efibootmgr' # EFI boot
@@ -117,16 +109,7 @@ PKGS=(
 'htop' # Interactive process viewer
 'iptables-nft' # Linux kernel packet control tool (using nft interface)
 'jdk-openjdk' # Java 17
-'kate' # Gui Text Editor
-'kcodecs' # Provide a collection of methods to manipulate strings using various encodings -KDE
-'kcoreaddons' # Addons to QtCore -KDE
-'kdeplasma-addons' # All kind of addons to improve your Plasma experience
-'kde-gtk-config' # GTK2 and GTK3 Configurator for KDE
-'kinfocenter' # A utility that provides information about a computer system
-'kscreen' # KDE screen management software
-'kvantum-qt5' # SVG-based theme engine for Qt5 (including config tool and extra themes)
 'kitty' # OpenGL based terminal emulator with TrueColor, ligatures support, protocol extensions for keyboard input and image rendering
-'konsole' # KDE terminal emulator
 'layer-shell-qt' # Qt component to allow applications to make use of the Wayland wl-layer-shell protocol
 'libdvdcss' # Portable abstraction library for DVD decryption
 'libnewt' # Not Erik's Windowing Toolkit - text mode windowing with slang
@@ -149,13 +132,11 @@ PKGS=(
 'openbsd-netcat' # TCP/IP swiss army knife. OpenBSD variant
 'openssh' # SSH remote login server
 'os-prober' # Utility to detect other OSes on a set of drives
-'oxygen' # KDE Style
 'p7zip' # Command-line file archiver with high compression ratio
 'pacman-contrib' # Contributed scripts and tools for pacman systems
 'patch' # A utility to apply patch files to original sources
 'picom' # X compositor that may fix tearing issues
 'pkgconf' # Package compiler and linker metadata toolkit
-'plasma-meta' # Meta package to install KDE Plasma
 'plasma-nm' # Plasma applet written in QML for managing network connections
 'powerdevil' # Manages the power consumption settings of a Plasma Shell
 'powerline-fonts' # patched fonts for powerline
@@ -169,15 +150,11 @@ PKGS=(
 'python-pip' # The PyPA recommended tool for installing Python packages
 'qemu' # A generic and open source machine emulator and virtualizer
 'rsync' # A fast and versatile file copying tool for remote and local files
-'sddm' # QML based X11 and Wayland display manager
-'sddm-kcm' # KDE Config Module for SDDM
 'snapper' # A tool for managing BTRFS and LVM snapshots. It can create, diff and restore snapshots and provides timelined auto-snapping.
-'spectacle' # KDE screenshot capture utility
 'steam' # Valve's digital software delivery system - Games
 'sudo' # Give certain users the ability to run some commands as root
 'swtpm' # Libtpms-based TPM emulator with socket, character device, and Linux CUSE interface
 'synergy' # Share a single mouse and keyboard between multiple computers
-'systemsettings' # KDE system manager for hardware, software, and workspaces
 'terminus-font' # Monospace bitmap font (for X11 and console)
 'traceroute' # Tool to track the route taken by packets over an IP network
 'ufw' # Uncomplicated and easy to use CLI tool for managing a netfilter firewall
@@ -192,7 +169,6 @@ PKGS=(
 'wine-gecko' # Wine's built-in replacement for Microsoft's Internet Explorer
 'wine-mono' # Wine's built-in replacement for Microsoft's .NET Framework
 'winetricks' # Script to install various redistributable runtime libraries in Wine.
-'xdg-desktop-portal-kde' # A backend implementation for xdg-desktop-portal using Qt/KF5
 'xdg-user-dirs' # Manage user directories like ~/Desktop and ~/Music
 'zeroconf-ioslave' # Network Monitor for DNS-SD services (Zeroconf)
 'zip' # Compressor/archiver for creating and modifying zipfiles
