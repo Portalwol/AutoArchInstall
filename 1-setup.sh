@@ -54,6 +54,7 @@ pacman -Sy --noconfirm
 echo -e "\nInstalling Base System\n"
 
 PKGS=(
+'lightdm' # DisplayManager
 'awesome'# Awesome wm gui enviroment
 'thunar' # file manager pogger lmao xd rekt 360 noscope nuked
 'feh' #Light Weight Image Viewer
