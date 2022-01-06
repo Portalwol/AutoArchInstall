@@ -104,7 +104,6 @@ PKGS=(
 'fuseiso' # FUSE module to let unprivileged users mount ISO filesystem images 
 'gamemode' # daemon/lib combo for Linux that allows games to request a set of optimisations be temporarily applied to the host OS and/or a game process
 'gcc' # GNU Compiler Collection - C and C++ frontends
-'gimp' # Photo editing
 'git' # Version Control System to Maintain AUR Packages
 'gparted' # A Partition Magic clone, frontend to GNU Parted
 'gptfdisk' # A text-mode partitioning tool that works on GUID Partition Table (GPT) disks
