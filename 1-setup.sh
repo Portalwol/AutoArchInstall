@@ -145,8 +145,6 @@ PKGS=(
 'patch' # A utility to apply patch files to original sources
 'picom' # X compositor that may fix tearing issues
 'pkgconf' # Package compiler and linker metadata toolkit
-'plasma-nm' # Plasma applet written in QML for managing network connections
-'powerdevil' # Manages the power consumption settings of a Plasma Shell
 'powerline-fonts' # patched fonts for powerline
 'print-manager' # A tool for managing print jobs and printers
 'pulseaudio' # A featureful, general-purpose sound server
