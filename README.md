@@ -1,15 +1,7 @@
-# ArchTitus Installer Script
 
-<img src="https://i.imgur.com/YiNMnan.png" />
-
-This README contains the steps I do to install and configure a fully-functional Arch Linux installation containing a desktop environment, all the support packages (network, bluetooth, audio, printers, etc.), along with all my preferred applications and utilities. The shell scripts in this repo allow the entire process to be automated.)
-
----
 ## Create Arch ISO or Use Image
 
 Download ArchISO from <https://archlinux.org/download/> and put on a USB drive with [Etcher](https://www.balena.io/etcher/), [Ventoy](https://www.ventoy.net/en/index.html), or [Rufus](https://rufus.ie/en/)
-
-If you don't want to build using this script I did create an image @ <https://www.christitus.com/arch-titus>
 
 ## Boot Arch ISO
 
@@ -19,11 +11,11 @@ From initial Prompt type the following commands:
 pacman -Sy git
 git clone https://github.com/ChrisTitusTech/ArchTitus
 cd ArchTitus
-./archtitus.sh
+./ArchInstall.sh
 ```
 
 ### System Description
-This is completely automated arch install of the KDE desktop environment on arch using all the packages I use on a daily basis. 
+This is completely automated arch install of the Awesomewm on arch using all the packages For daily use. 
 
 ## Troubleshooting
 
