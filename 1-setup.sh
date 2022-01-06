@@ -54,7 +54,8 @@ pacman -Sy --noconfirm
 echo -e "\nInstalling Base System\n"
 
 PKGS=(
-'awesome' # Awesome wm gui enviroment
+'awesome'# Awesome wm gui enviroment
+'thunar'#file manager pogger lmao xd rekt 360 noscope nuked
 'feh' #Light Weight Image Viewer
 'flameshot'# Powerful Screenshot tool
 'arc-icon-theme' #icons for awesome wm
