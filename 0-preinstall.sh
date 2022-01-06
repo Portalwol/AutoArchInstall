@@ -9,13 +9,6 @@
 #-------------------------------------------------------------------------
 SCRIPT_DIR="$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )"
 cp /etc/pacman.d/mirrorlist /etc/pacman.d/mirrorlist.backup
-echo -e "-------------------------------------------------------------------------"
-echo -e " hi"
-echo -e " wasup"
-echo -e " xd"
-echo -e " ok countinue the show"
-echo -e " c:"
-echo -e " /shrug"
 echo "-------------------------------------------------"
 echo "Setting up mirrors for optimal download          "
 echo "-------------------------------------------------"
